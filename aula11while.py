@@ -27,8 +27,8 @@ while True:
         break  # Sai do loop se o usuário escolher sair
     elif escolha in {'1', '2', '3', '4'}:
         # Solicita os números para a operação
-        num1 = float(input("Digite o primeiro número: "))
-        num2 = float(input("Digite o segundo número: "))
+        num1 = float(input("Digite o primeiro número:  "))
+        num2 = float(input("Digite o segundo número:  "))
 
         # Realiza a operação escolhida
         if escolha == '1':
